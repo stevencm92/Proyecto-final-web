@@ -5,11 +5,11 @@ const RegistroIngresos = () => {
   const [valor, setValor] = useState('');
   const [categoria, setCategoria] = useState('');
 
-  // Datos ficticios de categorías
+ 
   const categorias = ['Alimentación', 'Transporte', 'Entretenimiento', 'Salud', 'Educación'];
 
   const registrarTransaccion = () => {
-    // Aquí puedes agregar la lógica para registrar la transacción
+    
     console.log({ tipo, valor, categoria });
     setValor('');
     setCategoria('');

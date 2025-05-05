@@ -1,7 +1,7 @@
 import React from 'react';
 
 const ListadoIngresos = () => {
-  // Datos ficticios de transacciones
+  
   const transacciones = [
     { tipo: 'Ingreso', valor: 5000, categoria: 'Salario' },
     { tipo: 'Egreso', valor: 200, categoria: 'Alimentación' },
